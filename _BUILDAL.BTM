@@ -1,0 +1,6 @@
+@echo off
+do p in @%DOSLIB%\_project.lst
+	pushd %DOSLIB%\%p
+		call _build
+	popd
+enddo

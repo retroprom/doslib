@@ -1,0 +1,7 @@
+@echo off
+del /e *.obj
+del /e *.lib
+del /e *.map
+del /e *.exe
+del /e *.sym
+del /e *.bak

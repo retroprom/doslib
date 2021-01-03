@@ -1,0 +1,5 @@
+@echo off
+do p in *.prj
+	echo ==================== DOSLIB --- Converting project %p
+	prj2mak %p
+enddo

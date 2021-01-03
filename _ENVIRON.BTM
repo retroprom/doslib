@@ -1,0 +1,3 @@
+@echo off
+set DOSLIB=%_CWD%
+set PATH=%DOSLIB%\PRJ;%PATH%

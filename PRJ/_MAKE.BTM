@@ -1,0 +1,6 @@
+@echo off
+do m in *.mak
+	echo ==================== DOSLIB --- Making project %m
+	make -f %m %&
+enddo
+

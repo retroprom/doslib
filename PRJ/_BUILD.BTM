@@ -1,0 +1,5 @@
+@echo off
+do p in *.prj
+	echo ==================== DOSLIB --- Building project %p
+	bc /b %p
+enddo
